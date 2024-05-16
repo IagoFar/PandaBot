@@ -2,7 +2,7 @@ name: Use token
 on: [push]
 jobs:
   use_token:
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Use token
